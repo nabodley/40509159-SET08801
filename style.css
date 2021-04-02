@@ -1,5 +1,22 @@
+.navigation {
+	list-style: none;
+	margin: 0;
+	background: white;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex;
+}
+
+.navigation a {
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	color: red;
+}
+
 Body {
-	background-color: green;
+	background-color: white;
+	flex-wrap: wrap;
 }
 
 a {
@@ -9,13 +26,15 @@ a {
 
 h1, h2, h3 {
 	margin: 0;
+	
 }
 
 #container {
-	background-color: white;
+	background-color: #ABEBC6;
 	width: 1024px;
 	margin-left: auto;
 	margin-right: auto;
+	
 }
 
 #header {
@@ -27,6 +46,7 @@ h1, h2, h3 {
 
 #content {
 	padding: 20px;
+	flex-wrap: wrap;
 }
 
 #nav {
@@ -46,12 +66,13 @@ h1, h2, h3 {
 #main {
 	width: 800px;
 	float: right;
+	flex-wrap: wrap;
 	
 }#footer {
 	clear: both;
 	padding: 20px;
-	background-color: #999999;
-	Color: white:
+	background-color: #66CCFF;
+	Color: white;
 	text-align: right;
 	
 }
