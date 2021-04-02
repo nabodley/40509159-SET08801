@@ -1,5 +1,5 @@
 Body {
-	background-color: #EEE;
+	background-color: green;
 }
 
 a {
@@ -13,7 +13,7 @@ h1, h2, h3 {
 
 #container {
 	background-color: white;
-	width: 1280px;
+	width: 1024px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -30,7 +30,7 @@ h1, h2, h3 {
 }
 
 #nav {
-	width: 260px;
+	width: 180px;
 	float: left;
 }
 
@@ -44,7 +44,7 @@ h1, h2, h3 {
 }
 
 #main {
-	width: 1000px;
+	width: 800px;
 	float: right;
 	
 }#footer {
