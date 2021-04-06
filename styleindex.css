@@ -1,13 +1,15 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: arial;
 }
 .header{
 	color: tomato;
 	background: linear-gradient(to right, #DCE35B, #45b649);
 	text-align: center;
-	padding: 25px
+	padding: 25px;
+	font-size: 28px;
+	text-shadow: 2px 2px 5px;
 }
 .container{
 	width: 100%;
@@ -54,16 +56,32 @@
 }
 .three{
 	top: 940px;
-	left: 40px;
+	left: 20px;
 }
 .description{
 	float: right;
-	width: 50%;
+	width: 70%;
 	text-align: left;
 	color: tomato;
+	font-size: 24px;
 }
+h1{
+	color: tomato;
+	
+}
+h2{
+	color: white;
+	text-align: center;
+}
+h3{
+	text-align: center;
+	color: white;
+	font-size: 24px;
+}
+	
 .footer{
 	float: bottom;
+	padding: 10px;
 	text-align: center;
 	color: white;
 	background: linear-gradient(to right, #DCE35B, #45b649);
