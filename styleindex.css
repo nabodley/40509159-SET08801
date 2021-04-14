@@ -13,8 +13,8 @@
 }
 .container{
 	width: 100%;
-	height: 150vh;
-	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/beach.jpg);
+	height: 220vh;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/pigeonislandhome.jpg);
 	background-position: center;
 	background-size: cover;
 	padding-left: 2%;
@@ -23,7 +23,6 @@
 }
 .nav{
 	width: 68%;
-	position: sticky;
 	margin: 0px auto;
 	z-index: 1;
 	display: flex;
@@ -46,8 +45,11 @@
 .character{
 	position: absolute;
 }
+.character img{
+	max-width: 100%;
+}
 .one{
-	top: 240px;
+	top: 290px;
 	left: 20px;
 }
 .two{
@@ -58,16 +60,18 @@
 	top: 940px;
 	left: 20px;
 }
+
 .description{
 	float: right;
-	width: 70%;
+	width: 45%;
+	display: inline-block;
 	text-align: left;
 	color: tomato;
 	font-size: 24px;
+	padding: 30px;
 }
 h1{
 	color: tomato;
-	
 }
 h2{
 	color: white;
@@ -78,9 +82,15 @@ h3{
 	color: white;
 	font-size: 24px;
 }
+p{
+	display: inline-block;
+	flex-basis: 50%
+	
+	}
 	
 .footer{
 	float: bottom;
+	height: 100%;
 	padding: 10px;
 	text-align: center;
 	color: white;
