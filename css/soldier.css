@@ -16,7 +16,7 @@
 	height: 25%;
 	display: flex;
 	align-items: center;
-	padding: 20px;
+	padding: 50px;
 }
 .chaima{
 	width:200px;
@@ -59,7 +59,7 @@ p{
 	width: 250px;
 	height: 250px;
 	display: inline-block;
-	border-radius: 30px;
+	border-radius: 50px;
 	margin: 30px;
 	transition: transform 0.5s;
 	
