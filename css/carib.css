@@ -35,7 +35,7 @@ nav ul li a{
 }
 .row{
 	display: flex;
-	height: 300px;
+	height: 200px;
 	align-items: center;
 }
 .col{
@@ -59,7 +59,7 @@ p{
 	width: 250px;
 	height: 250px;
 	display: inline-block;
-	border-radius: 30px;
+	border-radius: 50px;
 	margin: 30px;
 	transition: transform 0.5s;
 }
