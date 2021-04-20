@@ -16,7 +16,7 @@
 	height: 25%;
 	display: flex;
 	align-items: center;
-	padding: 20px;
+	padding: 0px;
 }
 .chaima{
 	width:200px;
@@ -35,7 +35,7 @@ nav ul li a{
 }
 .row{
 	display: flex;
-	height: 200px;
+	height: 620px;
 	align-items: center;
 }
 .col{
