@@ -5,7 +5,7 @@
 }
 .container{
 	width: 100%;
-	height: 170vh;
+	height: 150vh;
 	background: linear-gradient(to right, #2980b9, #6dd5fa);
 	padding-right: 2%;
 	padding-left: 2%;
@@ -16,7 +16,7 @@
 	height: 25%;
 	display: flex;
 	align-items: center;
-	padding: 20px;
+	padding: 0px;
 }
 .chaima{
 	width:200px;
@@ -28,18 +28,14 @@ nav{
 nav ul li{
 	list-style: none;	
 }
-nav ul li a{
-	text-decoration: none;
-	color: white;
-	font-size: 24px;
-}
+
 .row{
 	display: flex;
-	height: 815px;
+	height: 700px;
 	align-items: center;
 }
 .col{
-	flex-basis: 50%;
+	flex-basis: 75%;
 	text-decoration: none;
 }
 h1{
@@ -52,7 +48,7 @@ h3{
 }
 p{
 	color: white;
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 30px;
 }
 .exits img{
